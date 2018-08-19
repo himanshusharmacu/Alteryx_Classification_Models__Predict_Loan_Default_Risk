@@ -23,10 +23,10 @@ A bank recently received an influx of loan applications. I had build and applied
 
 # Steps to Success
 
--> Step 1: Business and Data Understanding
+# -> Step 1: Business and Data Understanding
 * Your project should include a description of the key business decisions that need to be made.
 
--> Step 2: Explore and Cleanup the Data
+# -> Step 2: Explore and Cleanup the Data
 * To properly build the model, and select predictor variables, you need to explore and cleanup your data.
 
 -> Here are some guidelines to help you clean up the data:
@@ -43,7 +43,7 @@ A bank recently received an influx of loan applications. I had build and applied
 # Your clean data set should have 13 columns where the Average of Age Years should be 36 (rounded up)
 * Note: If you decide to impute any data field, for the sake of consistency in the data cleanup process, impute the data using the median of the entire data field.
 
--> Step 3. Train your Classification Models
+# -> Step 3. Train your Classification Models
 * You should choose 70% to create the Estimation set and 30% to create the Validation set. Set the Random Seed to 1 if you're using Alteryx.
 
 #Train your dataset using these models:
@@ -53,7 +53,7 @@ A bank recently received an influx of loan applications. I had build and applied
 * Forest Model
 * Boosted Tree
 
--> Step 4. Writeup
+# -> Step 4. Writeup
 * Compare all of the models’ performance against each other. Decide on the best model and score your new customers.
 
 # Important: Your manager only cares about how accurate you can identify people who qualify and do not qualify for loans for this problem.
